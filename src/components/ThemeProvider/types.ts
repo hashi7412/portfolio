@@ -1,7 +1,7 @@
 export interface ThemeProviderProps {
   themeId: "dark" | "light";
   children: React.ReactNode;
-  as: string;
+  as: any;
   [key: string]: any;
 }
 

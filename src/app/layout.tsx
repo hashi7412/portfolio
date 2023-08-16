@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { useRouter } from 'next/navigation'
 import styles from '@/layouts/App/App.module.css'
+import { Navbar } from '@/components/Nav'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        <Navbar />
         <main className={styles.app}>
           {children}
         </main>

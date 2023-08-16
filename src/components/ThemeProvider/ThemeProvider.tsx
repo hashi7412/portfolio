@@ -11,7 +11,7 @@ export const ThemeProvider = ({
 	themeId = 'dark',
 	children,
 	className,
-	as: Component = 'div',
+	as: Component,
 	...rest
 }: ThemeProviderProps) => {
 	const currentTheme = { ...theme[themeId] };
