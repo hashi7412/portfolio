@@ -5,7 +5,7 @@ import { Fragment } from 'react'
 export default function Home() {
   return (
     <Fragment>
-      <h1>Hello World</h1>
+      <h1>I'm Kenzo, a web designer and developer</h1>
     </Fragment>
   )
 }
